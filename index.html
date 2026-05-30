@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abundant Grace — Sermon Insights for Daily Life</title>
+  <meta name="description" content="Key points, Bible verses, and daily-life applications from Joseph Prince and Elevation Church sermons. Updated weekly." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕊️</text></svg>" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="crest">🕊️</div>
+    <h1>Abundant Grace</h1>
+    <div class="tagline">Sermon insights for everyday faith</div>
+    <p class="verse">"You received the Spirit of adoption, by whom we cry out, 'Abba, Father!'" — Romans 8:15</p>
+  </header>
+
+  <nav class="toolbar">
+    <div class="wrap">
+      <input type="text" id="search" class="search" placeholder="Search sermons, themes, or verses…" />
+      <div class="filters" id="filters"></div>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <div class="intro">
+      <h2>This Week's Word</h2>
+      <p>Key points, Scripture, and practical application — drawn from each sermon.</p>
+    </div>
+    <div class="grid" id="grid"></div>
+    <div class="empty" id="empty" style="display:none;">No sermons match your search.</div>
+  </main>
+
+  <div class="overlay" id="overlay">
+    <article class="detail" id="detail"></article>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>Abundant Grace · Compiled from <a href="https://www.josephprince.org" style="color:#e8d4ad">Joseph Prince Ministries</a> &amp; <a href="https://www.elevationchurch.org" style="color:#e8d4ad">Elevation Church</a></div>
+      <div class="updated" id="footer-updated"></div>
+      <div style="margin-top:10px; font-size:0.8rem; opacity:0.7;">Summaries are study aids — watch the full messages at the source links. To God be the glory.</div>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
