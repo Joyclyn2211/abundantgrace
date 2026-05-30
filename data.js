@@ -2,7 +2,7 @@
 // Auto-maintained by the weekly update process. Edit content here or via update-wiki.ps1.
 
 window.SITE = {
-  lastUpdated: "May 30, 2026",
+  lastUpdated: "May 30, 2026 (Elevation Church added)",
   sources: [
     { id: "joseph-prince", name: "Joseph Prince Ministries", pastor: "Joseph Prince",
       focus: "Grace, healing, righteousness, identity in Christ",
@@ -12,6 +12,37 @@ window.SITE = {
       url: "https://www.elevationchurch.org/sermons" }
   ],
   sermons: [
+    {
+      id: "this-is-bigger-than-them",
+      source: "elevation-church",
+      title: "This Is Bigger Than Them",
+      date: "2026-05-03",
+      series: "",
+      themes: ["Faith", "Courage", "God's Promises"],
+      watch: "https://www.elevationchurch.org/sermons/this-is-bigger-than-them",
+      core: "Taught through the life of Caleb, this message shows how to stand firm in what God has promised — regardless of the people or problems that appear to stand in the way. The giants are real, but the promise is bigger than them. (Summary compiled from Elevation Church's official description and the Caleb narrative; watch the full message for Pastor Steven's complete teaching.)",
+      points: [
+        "Caleb saw the same giants the ten spies saw — but he measured them against God, not himself (Numbers 13:30).",
+        "The majority report focused on the obstacle; Caleb's report focused on the One who gave the promise (Numbers 13:33 vs. 14:9).",
+        "A 'different spirit' set Caleb apart — wholehearted devotion to God in the face of fear (Numbers 14:24).",
+        "Caleb still claimed his mountain at 85 — God's promises don't have an expiration date (Joshua 14:10–12).",
+        "What's against you is smaller than what God has spoken over you — 'this is bigger than them.'"
+      ],
+      verses: [
+        { ref: "Numbers 13:30", text: "Caleb quieted the people and said, 'Let us go up at once and occupy it, for we are well able to overcome it.'" },
+        { ref: "Numbers 14:24", text: "But My servant Caleb, because he has a different spirit and has followed Me fully, I will bring into the land." },
+        { ref: "Joshua 14:11–12", text: "I am still as strong today as I was in the day Moses sent me… So now give me this hill country of which the Lord spoke." },
+        { ref: "Romans 8:31", text: "If God is for us, who can be against us?" }
+      ],
+      apply: [
+        "Name your 'giant' honestly — then write next to it the promise of God that is bigger than it.",
+        "Audit your inputs: are you listening to the majority report of fear, or the voice of God's promise?",
+        "Ask God for a 'different spirit' — wholehearted trust instead of half-hearted hedging.",
+        "Don't disqualify yourself by age, delay, or past failure — Caleb's mountain came decades later.",
+        "Speak the promise out loud over the problem: 'This is bigger than them.'"
+      ],
+      practice: "Write down one God-given promise or dream you've shelved because of opposition. Read Joshua 14:10–12 over it this week and take one concrete step toward 'your mountain.'"
+    },
     {
       id: "what-happens-when-you-sin",
       source: "joseph-prince",
