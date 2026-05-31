@@ -55,7 +55,12 @@
         <h3>${s.title}</h3>
         <div class="core">${s.core}</div>
         <div class="tags">${s.themes.map(t => `<span class="tag">${t}</span>`).join("")}</div>
-        <div class="src">${sourceName(s.source)}</div>`;
+        <div class="card-foot">
+          <span class="src">${sourceName(s.source)}</span>
+          <a class="post-link" href="${s.watch}" target="_blank" rel="noopener">View post ↗</a>
+        </div>`;
+      const link = card.querySelector(".post-link");
+      if (link) link.onclick = e => e.stopPropagation();
       grid.appendChild(card);
     });
   }

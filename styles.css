@@ -114,7 +114,10 @@ a:hover { text-decoration: underline; }
   font-size: 0.72rem; padding: 4px 10px; border-radius: 20px;
   background: #f3ecdf; color: var(--accent); font-family: sans-serif;
 }
-.card .src { margin-top: 14px; font-size: 0.8rem; color: var(--muted); font-style: italic; }
+.card-foot { margin-top: 14px; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.card-foot .src { font-size: 0.8rem; color: var(--muted); font-style: italic; }
+.post-link { font-size: 0.8rem; font-weight: 600; color: var(--gold-soft); text-decoration: none; white-space: nowrap; }
+.post-link:hover { text-decoration: underline; }
 
 /* ---------- Modal / detail ---------- */
 .overlay {
