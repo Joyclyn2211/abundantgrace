@@ -75,12 +75,15 @@
       </div>
       <div class="detail-body">
         <section><h4>Core Message</h4><p class="core-text">${s.core}</p></section>
+        ${s.background ? `<section><h4>Background &amp; Context</h4><p>${s.background}</p></section>` : ""}
         <section><h4>Key Points</h4><ul>${s.points.map(p => `<li>${p}</li>`).join("")}</ul></section>
+        ${s.deepDive && s.deepDive.length ? `<section><h4>Going Deeper</h4>${s.deepDive.map(p => `<p>${p}</p>`).join("")}</section>` : ""}
         <section><h4>Bible Verses</h4>${s.verses.map(v => `
-          <div class="verse-card"><div class="ref">${v.ref}</div><div class="txt">${v.text}</div></div>`).join("")}</section>
+          <div class="verse-card"><div class="ref">${v.ref}</div><div class="txt">${v.text}</div>${v.note ? `<div class="vnote">${v.note}</div>` : ""}</div>`).join("")}</section>
         <section><h4>Apply It This Week</h4><ul>${s.apply.map(a => `<li>${a}</li>`).join("")}</ul></section>
+        ${s.reflect && s.reflect.length ? `<section><h4>Questions to Reflect On</h4><ul class="reflect">${s.reflect.map(r => `<li>${r}</li>`).join("")}</ul></section>` : ""}
         <section><div class="practice"><strong>Practice</strong>${s.practice}</div></section>
-        <section style="text-align:center;"><a class="watch-link" href="${s.watch}" target="_blank" rel="noopener">▶ Watch the Full Sermon</a></section>
+        <section style="text-align:center;"><a class="watch-link" href="${s.watch}" target="_blank" rel="noopener">▶ Watch / View the Full Sermon</a></section>
       </div>`;
     overlay.classList.add("open");
     document.body.style.overflow = "hidden";

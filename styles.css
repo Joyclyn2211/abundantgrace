@@ -155,7 +155,11 @@ a:hover { text-decoration: underline; }
   border-bottom: 1px solid var(--line); padding-bottom: 6px;
 }
 .core-text { font-size: 1.05rem; color: var(--ink); font-style: italic; }
+.detail-body section p { color: var(--ink); line-height: 1.75; margin-bottom: 12px; }
+.detail-body section p:last-child { margin-bottom: 0; }
 .detail-body ul { list-style: none; }
+.detail-body ul.reflect li::before { content: "?"; font-weight: 700; }
+.detail-body ul.reflect li { font-style: italic; color: var(--accent); }
 .detail-body ul li { padding: 7px 0 7px 26px; position: relative; }
 .detail-body ul li::before {
   content: "✦"; position: absolute; left: 0; color: var(--gold); font-size: 0.85rem; top: 8px;
@@ -166,6 +170,8 @@ a:hover { text-decoration: underline; }
 }
 .verse-card .ref { font-weight: 700; color: var(--accent); font-family: sans-serif; font-size: 0.9rem; }
 .verse-card .txt { font-style: italic; color: var(--muted); margin-top: 4px; }
+.verse-card .vnote { margin-top: 8px; font-size: 0.86rem; color: var(--accent); }
+.verse-card .vnote::before { content: "→ "; color: var(--gold); }
 .practice {
   background: linear-gradient(135deg, #f3ead6, #faf4e6);
   border: 1px solid var(--gold-soft); border-radius: 10px;
