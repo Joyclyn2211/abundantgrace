@@ -4,7 +4,7 @@
 //   core, background, points[], deepDive[], verses[{ref,text,note}], apply[], reflect[], practice
 
 window.SITE = {
-  lastUpdated: "May 31, 2026 (expanded, in-depth summaries)",
+  lastUpdated: "May 31, 2026 (added 'Concealed But Not Canceled')",
   sources: [
     { id: "joseph-prince", name: "Joseph Prince Ministries", pastor: "Joseph Prince",
       focus: "Grace, healing, righteousness, identity in Christ",
@@ -14,6 +14,51 @@ window.SITE = {
       url: "https://www.elevationchurch.org/sermons" }
   ],
   sermons: [
+    {
+      id: "concealed-but-not-canceled",
+      source: "elevation-church",
+      title: "Concealed But Not Canceled",
+      date: "2024-02-04",
+      series: "Anniversary Message",
+      themes: ["Identity", "Purpose", "Perseverance"],
+      watch: "https://www.youtube.com/watch?v=JEftYxOoXos",
+      core: "Delivered as an Elevation Church anniversary message, this sermon presses a single, hope-filled distinction: what God has placed in your life may be concealed, but it is not canceled. Seasons of hiddenness, delay, weakness, and apparent failure can make it feel as though your purpose has been revoked — but the message insists that concealment is not the same as cancellation. God specializes in turning our greatest weakness into a display of His greatness, and a calling that looks buried is often simply being kept until its appointed time. (Summary compiled from the video title, Elevation Church's description of the message, and the Scripture that frames its theme; watch the full sermon on YouTube for Pastor Steven's complete teaching.)",
+      background: "Scripture is full of people whose purpose was hidden long before it was revealed: Joseph concealed in a pit and a prison, David overlooked in the fields, Moses tucked away on the back side of the desert for forty years. In each case the calling was real the whole time — it was simply concealed, not canceled. The New Testament gives this a settled theological footing: 'your life is hidden with Christ in God' (Colossians 3:3), and 'the gifts and the calling of God are irrevocable' (Romans 11:29). The message takes the cultural language of being 'canceled' — written off, dismissed, finished — and answers it with the gospel reality that nothing God has spoken over you can be undone by a season, a setback, or a weakness.",
+      points: [
+        "Concealed is not the same as canceled. A delay, a hidden season, or a public setback can make your purpose feel revoked, but hiddenness is often God's storage, not God's cancellation (Colossians 3:3–4).",
+        "God's callings are irrevocable. What He has genuinely placed in you is not subject to being voted off or withdrawn by your failures or other people's verdicts (Romans 11:29).",
+        "God turns weakness into the stage for His greatness. He deliberately chooses what looks weak and overlooked so that the glory clearly belongs to Him, not to us (1 Corinthians 1:27; 2 Corinthians 12:9).",
+        "The treasure is carried in fragile, ordinary vessels. The hiddenness and the cracks are not disqualifications — they are precisely where the surpassing power is shown to be God's and not ours (2 Corinthians 4:7).",
+        "Hidden seasons are formation, not abandonment. Joseph's pit and prison were the very places his character and calling were prepared; the concealment was part of the plan (Genesis 50:20)."
+      ],
+      deepDive: [
+        "The genius of the title is that it borrows a word from the culture — 'canceled' — and refuses to let it have the final say over a life. To be canceled, in the modern sense, is to be written off as finished, irredeemable, dismissed. The message answers that the God of the Bible doesn't cancel His people; sometimes He conceals them. Concealment is a very different thing: a seed concealed in the ground isn't dead, it's positioned to grow; treasure concealed in a field isn't lost, it's waiting to be claimed. So the question the sermon puts to a discouraged believer is not 'has God given up on this?' but 'is this buried, or is this dead?' — and the gospel answer is that what God plants, He intends to raise.",
+        "This is grounded in two strong New Testament anchors. Colossians 3:3–4 says 'your life is hidden with Christ in God, and when Christ who is your life appears, then you also will appear with Him in glory.' Notice the rhythm: hidden now, revealed later — concealment with a guaranteed unveiling. And Romans 11:29 declares that 'the gifts and the calling of God are irrevocable.' That word matters enormously to anyone who feels their failures have voided their purpose: God does not issue and then rescind. The calling that looks dormant in a hard season has not been withdrawn; it has been kept.",
+        "The message then turns the believer's weakness from a liability into the very point. Paul writes that God 'chose what is weak in the world to shame the strong' (1 Corinthians 1:27) and that God's power 'is made perfect in weakness' (2 Corinthians 12:9). This reframes the concealment entirely. The hidden, weak, unimpressive season is not God reluctantly working around your inadequacy — it's God deliberately staging the kind of comeback that can only be explained by Him. Joseph in the prison, David in the field, the treasure in the clay jar: in each case the concealment is what makes the eventual revelation unmistakably the work of God. So the call is to endurance — to hold the promise through the hidden season, trusting that what is concealed is being readied, not retired."
+      ],
+      verses: [
+        { ref: "Colossians 3:3–4", text: "For you have died, and your life is hidden with Christ in God. When Christ who is your life appears, then you also will appear with Him in glory.", note: "Hidden now, revealed later — concealment that comes with a guaranteed unveiling." },
+        { ref: "Romans 11:29", text: "For the gifts and the calling of God are irrevocable.", note: "What God genuinely places in you cannot be revoked or 'canceled.'" },
+        { ref: "1 Corinthians 1:27", text: "But God chose what is foolish in the world to shame the wise; God chose what is weak in the world to shame the strong.", note: "God deliberately uses the overlooked so the glory is clearly His." },
+        { ref: "2 Corinthians 4:7", text: "But we have this treasure in jars of clay, to show that the surpassing power belongs to God and not to us.", note: "The fragile, hidden vessel is the point, not the problem." },
+        { ref: "2 Corinthians 12:9", text: "My grace is sufficient for you, for My power is made perfect in weakness.", note: "Weakness is the stage on which God's greatness is displayed." },
+        { ref: "Genesis 50:20", text: "As for you, you meant evil against me, but God meant it for good… to keep many people alive.", note: "Joseph's concealed years in pit and prison were preparation, not abandonment." }
+      ],
+      apply: [
+        "Name what feels 'canceled' in your life — a dream, a calling, a relationship — and ask honestly whether it's actually dead or simply buried. Treat buried things as seeds to be watered in prayer, not corpses to be mourned.",
+        "Preach 'irrevocable' to yourself. When failure or others' opinions tell you your purpose is voided, return to Romans 11:29 and remind yourself God does not withdraw what He has given.",
+        "Reframe your current weakness as a stage, not a disqualification. Ask God to make His power perfect in the very area you'd most like to hide (2 Corinthians 12:9).",
+        "Be faithful in the hidden season. Like Joseph in prison, do the next right thing well even when no one is watching, trusting that concealment is formation for what's coming.",
+        "Guard against self-cancellation. Notice the inner voice that writes you off, and refuse to agree with a verdict God hasn't spoken over you.",
+        "Choose one promise you've nearly given up on, and this week take a single concrete step toward it as an act of faith that it's concealed, not canceled."
+      ],
+      reflect: [
+        "What in my life have I quietly labeled 'canceled' that God may simply have concealed for a season?",
+        "Where am I treating a weakness as a disqualification rather than as the place God wants to show His power?",
+        "Am I being faithful in my hidden season, or just waiting for it to end?"
+      ],
+      practice: "Write down one God-given dream or calling you've come close to writing off. Read Colossians 3:3–4 and Romans 11:29 over it this week, and take one small step that treats it as concealed, not canceled."
+    },
     {
       id: "this-is-bigger-than-them",
       source: "elevation-church",
